@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: OscarsTime
+Version: 0.0.1
+Summary: An improved time module
+Home-page: https://github.com/Oscar-Hogben/Timer-Module =
+Bug Tracker = https://github.com/Oscar-Hogben/Timer-Module/issues
+Author: Oscar Hogben
+Author-email: oscarhogben@gmail.com
+License: UNKNOWN
+Description: # Timer Module
+        ## Getting Started:
+        * To use put ***'main.py'*** in the same directory of your script
+        * Type `from TimerModule import Timer`
+        ## How to use:
+        * To access the features of the timer module type `Timer.` followed by the feature you would like to access
+        ## Features:
+        * `Timer.timer()` - Starts a asynchronous timer. Arguments: 1st: timer length (seconds), 2nd: Timer completed message (string) (default = "Timer Completed")
+        * 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: markdown

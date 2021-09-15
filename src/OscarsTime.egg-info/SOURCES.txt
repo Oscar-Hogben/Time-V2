@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/OscarsTime.egg-info/PKG-INFO
+src/OscarsTime.egg-info/SOURCES.txt
+src/OscarsTime.egg-info/dependency_links.txt
+src/OscarsTime.egg-info/top_level.txt
