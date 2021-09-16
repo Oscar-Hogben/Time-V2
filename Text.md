@@ -1,1 +1,1 @@
-Go to the github page for the README
+Go to the github page for the 'README.md'

@@ -29,6 +29,6 @@ def time_now(time_to_convert = time.time()):
     time_to_convert = int(time_to_convert)
   except:
     exit("FATAL ERROR: argument with 'time()' has to be a unix timestamp")
-  print(time.ctime(time_to_convert))
+  return time.ctime(time_to_convert)
 def unix():
-  print(int(time.time()))
+  return int(time.time())
