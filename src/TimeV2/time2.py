@@ -1,6 +1,6 @@
 import threading, time
 
-def timer(time_length = False, message = "Timer Done!"):
+def timer(time_length = False, message = False, variable = False):
   try:
     time_length = int(time_length)
   except:
@@ -13,7 +13,12 @@ def timer(time_length = False, message = "Timer Done!"):
     global timer_length
     global completed_message
     time.sleep(timer_length)
-    print(completed_message)
+    if completed_message:
+      print(completed_message)
+    if variable:
+      file = open(variable, "w")
+      file.write("True")
+      flle.close()
   t = threading.Thread(target=sub_timer)
   t.start()
 def wait(time_length = False, message = False):
