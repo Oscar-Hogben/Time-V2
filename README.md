@@ -9,7 +9,7 @@
 * Creates an asynchronous timer
 * 1st argument: timer length
 * 2nd argument: Finished message
-* 3rd argument: Finished file (see tutorial: https://www.youtube.com/watch?v=WGJEiLaIPuA)
+* 3rd argument: Finished file (see tutorial: https://www.youtube.com/watch?v=haoR7fm5R9k)
 ### `time2.wait()`
 * Sartes a simple timer that pauses your script until done
 * 1st argument: timer length
