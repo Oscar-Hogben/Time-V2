@@ -12,13 +12,14 @@ def timer(time_length = False, message = False, variable = False):
   def sub_timer():
     global timer_length
     global completed_message
-    time.sleep(timer_length)
+    time.sleep(timer_length-1)
+    time.sleep(0.5)
     if completed_message:
       print(completed_message)
     if variable:
       file = open(variable, "w")
       file.write("True")
-      flle.close()
+      file.close()
   t = threading.Thread(target=sub_timer)
   t.start()
 def wait(time_length = False, message = False):
