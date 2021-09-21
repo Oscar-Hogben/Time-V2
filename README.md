@@ -18,3 +18,8 @@
 * 1st argument (optional): unix timestamp
 ### `time2.unix()`
 * Returns the current uix timestamp
+### `time2.stopwatch_start()`
+* Starts a stopwatch
+### `time2.stopwatch_stop()`
+* Stops an already started stopwatch
+* Returns the length of the stopwatch
