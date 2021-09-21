@@ -38,3 +38,12 @@ def time_now(time_to_convert = time.time()):
   return time.ctime(time_to_convert)
 def unix():
   return int(time.time())
+
+def stopwatch_start():
+  global stopwatchStartTime
+  stopwatchStartTime = time.time()
+  return "Started!"
+def stopwatch_stop():
+  stopwatchLength = time.time()- stopwatchStartTime
+  return stopwatchLength
+
