@@ -2,7 +2,7 @@ import threading, time
 
 def timer(time_length = False, message = False, variable = False):
   try:
-    time_length = int(time_length)
+    time_length = float(time_length)
   except:
     exit("FATAL ERROR: Expected intager with 'timer()''")
   global completed_message
@@ -24,7 +24,7 @@ def timer(time_length = False, message = False, variable = False):
   t.start()
 def wait(time_length = False, message = False):
   try:
-    time_length = int(time_length)
+    time_length = float(time_length)
   except:
     exit("FATAL ERROR: Expected intager with 'wait()'")
   time.sleep(time_length)
@@ -37,8 +37,7 @@ def time_now(time_to_convert = time.time()):
     exit("FATAL ERROR: argument with 'time()' has to be a unix timestamp")
   return time.ctime(time_to_convert)
 def unix():
-  return int(time.time())
-
+  return time.time()
 def stopwatch_start():
   global stopwatchStartTime
   stopwatchStartTime = time.time()
