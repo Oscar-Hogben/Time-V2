@@ -1,4 +1,5 @@
 # Time v2
+**IMPORTANT: Time V2 has been merged with Scorpii. Check it out here: https://github.com/Oscar-Hogben/Scorpii**
 ## About
 * A simple replacement of the common `time` module
 ## How to install
